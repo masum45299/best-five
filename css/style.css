@@ -1,0 +1,95 @@
+
+body{
+    background-color: #151515;
+}
+.top{
+    background-color: black;
+    
+}
+.set-1{
+    margin-top: 101px;
+    margin-right: 10px;
+}
+.set-2{
+    margin-top: 150px;
+    color: white;
+}
+.h1{
+    color: #FF5E19;
+    margin-bottom: 20px;
+}
+.set-3{
+    margin-top: 282px;
+    /* margin-left: 271px; */
+}
+
+.player-name{
+    color: white;
+}
+
+.select{
+    padding: 5px 50px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+}
+
+.side-color{
+    background-color: black;
+}
+
+.list-style{
+    list-style: block;
+}
+hr{
+    border-top: 5px solid gray;
+}
+
+.text-color{
+    color: white;
+}
+.input{
+    width: 90px;
+    height: 26px;
+    margin-left: 16px;
+    border: 1px solid gray;
+    background: transparent;
+    color:white
+}
+.side-btn{
+    padding: 5px 60px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.side-btn-bottom{
+    padding: 5px 40px;
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+}
+.p-expense{
+    margin-left: 18px;
+}
+.total{
+    margin-left: 100px;
+    color: #FF5E19;
+}
+.input-manager{
+    width: 90px;
+    height: 26px;
+    margin-left: 23px;
+    border: 1px solid gray;
+    background: transparent;
+    color: white
+}
+.input-coach{
+    width: 90px;
+    height: 26px;
+    margin-left: 45px;
+    border: 1px solid gray;
+    background: transparent;
+    color: white;
+}
