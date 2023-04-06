@@ -1,28 +1,72 @@
 
 body{
     background-color: #151515;
+    /* overflow: none; */
+    margin: 0;
+    padding: 0;
 }
-.top{
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+.h-color{
     background-color: black;
-    
+    text-align: center;
+    height: 85vh;
+    position: relative;
 }
-.set-1{
-    margin-top: 101px;
-    margin-right: 10px;
+.h-color>*{
+    position: absolute;
 }
-.set-2{
-    margin-top: 150px;
-    color: white;
+.h-color>:nth-child(1){
+   bottom: 0%;
 }
-.h1{
+.h-color>:nth-child(2){
+   bottom: 0%;
+   right: 0%;
+}
+.h-container{
+    width: 500px;
+    margin: 0px auto;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.h-container>h1{
     color: #FF5E19;
-    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}.h-container>p{
+    color: white;
+    margin-top: 20px;
 }
-.set-3{
-    margin-top: 282px;
-    /* margin-left: 271px; */
+@media screen and (max-width:578px) {
+    .h-container>h1{
+        color: #FF5E19;
+        font-size: 20px;
+    }
+    .h-container{
+        width: 100%;
+    }
+    .h-color>:nth-child(1){
+        
+        top: 51%;
+        left: -20%;
+        transform: scale(0.5);
+     }
+}
+.card{
+    transition: .3s ease;
+}
+.card:hover{
+    transform: scale(1.1);
 }
 
+.select{
+    transition: .3s ease;
+}
+.select:hover{
+    transform: scale(1.1);
+}
 .player-name{
     color: white;
 }
@@ -42,7 +86,7 @@ body{
     list-style: block;
 }
 hr{
-    border-top: 5px solid gray;
+    border: 5px solid gray;
 }
 
 .text-color{
